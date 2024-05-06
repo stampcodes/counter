@@ -1,0 +1,31 @@
+/* ----------------------------Mobile Styles------------------- */
+@media only screen and (max-width: 400px) {
+
+
+h1{
+  margin-top: 10px;
+}
+
+  .counter{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 1px;
+    
+  }
+
+.screen-number{
+  padding: 20px 100px 20px 100px !important;
+  margin: 20px;
+}
+
+.increase, .increase10, .decrease, .decrease10{
+  display: block;
+  width: fit-content;
+  height:fit-content;
+  padding-top: 18px;
+  padding-bottom: 30px;
+
+}
+}

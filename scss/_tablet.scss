@@ -1,0 +1,38 @@
+/* ----------------------------Tablet Styles------------------- */
+
+@media only screen and (min-width: 401px) and (max-width: 1025px) {
+
+  body{
+    margin-bottom: 50px;
+  }
+
+  .counter{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+.screen-number{
+  padding: 50px 200px 50px 200px !important;
+  font-size: 70px;
+  
+}
+
+.increase, .increase10, .decrease, .decrease10{
+  display: block;
+  width: fit-content;
+  height:fit-content;
+  font-size: 70px;
+  padding: 40px 100px 40px 100px;
+  margin: 25px;
+}
+
+.decrease10, .increase10{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+}
+
